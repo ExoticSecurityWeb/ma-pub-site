@@ -1,10 +1,221 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Pink Paradise Ads</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PinkParPub</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0d0d0d;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* DISCLAIMER BANNER */
+    .disclaimer {
+      width: 100%;
+      background: linear-gradient(135deg, #1a0010, #2d0020);
+      border-bottom: 2px solid #ff3399;
+      padding: 14px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      box-shadow: 0 4px 20px rgba(255, 51, 153, 0.3);
+    }
+
+    .disclaimer-icon {
+      font-size: 28px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .disclaimer-content {
+      flex: 1;
+    }
+
+    .disclaimer-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ff3399;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .disclaimer-title span.badge {
+      background: #ff3399;
+      color: #fff;
+      font-size: 10px;
+      padding: 1px 7px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .disclaimer-text {
+      font-size: 12.5px;
+      color: #ddd;
+      line-height: 1.6;
+    }
+
+    .disclaimer-text strong {
+      color: #ff6ab5;
+    }
+
+    .disclaimer-tips {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tip {
+      background: rgba(255, 51, 153, 0.12);
+      border: 1px solid rgba(255, 51, 153, 0.3);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 11px;
+      color: #ffb3d9;
+    }
+
+    /* HEADER */
+    .header {
+      margin: 30px 0 10px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ff3399, #ff99cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header p {
+      font-size: 13px;
+      color: #888;
+      margin-top: 4px;
+    }
+
+    /* ADS CONTAINER */
+    .ads-wrapper {
+      width: 100%;
+      max-width: 900px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .ad-block {
+      width: 100%;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ad-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #555;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 11px;
+      color: #444;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<p style="font-family:sans-serif;color:#888;text-align:center;margin-top:40px">Pink Paradise Ads 🌸</p>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <div class="disclaimer-icon">⚠️</div>
+    <div class="disclaimer-content">
+      <div class="disclaimer-title">
+        Avertissement de sécurité — PinkParPub
+        <span class="badge">IMPORTANT</span>
+      </div>
+      <div class="disclaimer-text">
+        Les publicités diffusées sur <strong>PinkParPub</strong> peuvent provenir de réseaux tiers non contrôlés.
+        Certaines annonces peuvent mener vers des <strong>sites malveillants, des arnaques ou des tentatives de phishing</strong>.
+        Protégez-vous avant de cliquer sur quoi que ce soit.
+      </div>
+      <div class="disclaimer-tips">
+        <span class="tip">🛡️ Utilisez un bloqueur de pubs (uBlock Origin)</span>
+        <span class="tip">🔒 Vérifiez les URLs avant de cliquer</span>
+        <span class="tip">🚫 Ne téléchargez rien depuis une pub</span>
+        <span class="tip">👁️ Ne donnez jamais vos infos perso</span>
+        <span class="tip">🦠 Gardez votre antivirus actif</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>PinkParPub</h1>
+    <p>Espace publicitaire — navigation à vos risques</p>
+  </div>
+
+  <!-- ADS -->
+  <div class="ads-wrapper">
+
+    <div class="ad-block">
+      <div class="ad-label">Publicité</div>
+      <script src="https://pl28961134.effectivecpmnetwork.com/36/91/69/369169b84e25652a92cdbe3bf164a79b.js"></script>
+    </div>
+
+    <div class="ad-block">
+      <div class="ad-label">Publicité</div>
+      <script src="https://pl28960666.effectivecpmnetwork.com/e8/c9/be/e8c9be323f4e726f00274e171136f9a9.js"></script>
+    </div>
+
+    <div class="ad-block">
+      <div class="ad-label">Publicité</div>
+      <script async="async" data-cfasync="false" src="https://pl28961140.effectivecpmnetwork.com/2cceec10aa8158c6eb9afd5f1ba554d3/invoke.js"></script>
+      <div id="container-2cceec10aa8158c6eb9afd5f1ba554d3"></div>
+    </div>
+
+    <div class="ad-block">
+      <div class="ad-label">Publicité</div>
+      <script>
+        atOptions = {
+          'key' : 'd5668e8a1823f598783f23036c9fc34e',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script src="https://www.highperformanceformat.com/d5668e8a1823f598783f23036c9fc34e/invoke.js"></script>
+    </div>
+
+  </div>
+
+  <footer>
+    © PinkParPub — Pink Paradise · Les publicités ne sont pas gérées par Pink Paradise
+  </footer>
+
 </body>
 </html>
